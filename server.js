@@ -19,7 +19,11 @@ app.use(express.urlencoded({
 //         res.sendFile(path.resolve(__dirname,'client','build','index.'))
 //     })
 // }
-
+app.get('/serve',(req,res)=>{
+    res.json({
+        message:"moussa"
+    })
+})
 const PORT = process.env.PORT
 
 app.listen(PORT,()=>console.log(`connecté avec succes sur ${PORT}`))
