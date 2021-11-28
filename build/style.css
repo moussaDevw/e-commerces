@@ -1,0 +1,8 @@
+#blog_site{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    background-color: #F0F0F6;
+}
